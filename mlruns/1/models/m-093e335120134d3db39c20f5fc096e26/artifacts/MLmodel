@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/knigh/Desktop/f1-predictor-mlops/mlruns/1/models/m-093e335120134d3db39c20f5fc096e26/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+    skops_trusted_types: null
+mlflow_version: 3.12.0
+model_id: m-093e335120134d3db39c20f5fc096e26
+model_size_bytes: 730529
+model_uuid: m-093e335120134d3db39c20f5fc096e26
+prompts: null
+run_id: 0ba2b24ffba34baca128bcfed4f27904
+utc_time_created: '2026-05-20 10:58:48.201119'
