@@ -203,38 +203,43 @@ def append_to_csv(new_df, path):
     ).to_csv(path, index=False)
     print(f"  {path}: {len(existing)} → {len(combined)} rows")
 
-max_failures = 3
-failures = 0
+if __name__ == "__main__":
+    last_season, last_round = get_latest_round()
+    print(f"Last collected: {last_season} R{last_round}")
+    
+    collected = 0
+    max_failures = 3
+    failures = 0
 
-while True:
-    next_season, next_round = get_next_race(last_season, last_round)
+    while True:
+        next_season, next_round = get_next_race(last_season, last_round)
 
-    if next_season is None:
-        print(f"No more races available — collected {collected} new races")
-        break
-
-    print(f"Collecting: {next_season} R{next_round}")
-    new_races, new_weather, new_quali = collect_new_race(next_season, next_round)
-
-    if new_races is None or len(new_races) == 0:
-        failures += 1
-        print(f"Could not collect {next_season} R{next_round} — skipping ({failures}/{max_failures})")
-        last_season, last_round = next_season, next_round
-        if failures >= max_failures:
-            print("Too many failures — stopping")
+        if next_season is None:
+            print(f"No more races available — collected {collected} new races")
             break
-        continue
 
-    failures = 0  # reset on success
-    append_to_csv(new_races, "data/raw/races.csv")
-    append_to_csv(new_weather, "data/raw/weather.csv")
-    if new_quali is not None and len(new_quali) > 0:
-        append_to_csv(new_quali, "data/raw/qualifying.csv")
+        print(f"Collecting: {next_season} R{next_round}")
+        new_races, new_weather, new_quali = collect_new_race(next_season, next_round)
 
-    print(f"Successfully added {next_season} R{next_round}")
-    collected += 1
-    last_season, last_round = next_season, next_round
+        if new_races is None or len(new_races) == 0:
+            failures += 1
+            print(f"Could not collect {next_season} R{next_round} — skipping ({failures}/{max_failures})")
+            last_season, last_round = next_season, next_round
+            if failures >= max_failures:
+                print("Too many failures — stopping")
+                break
+            continue
 
-if collected == 0:
-    print("No new races collected — skipping retraining")
-    exit(1)
+        failures = 0  # reset on success
+        append_to_csv(new_races, "data/raw/races.csv")
+        append_to_csv(new_weather, "data/raw/weather.csv")
+        if new_quali is not None and len(new_quali) > 0:
+            append_to_csv(new_quali, "data/raw/qualifying.csv")
+
+        print(f"Successfully added {next_season} R{next_round}")
+        collected += 1
+        last_season, last_round = next_season, next_round
+
+    if collected == 0:
+        print("No new races collected — skipping retraining")
+        exit(1)
