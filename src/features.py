@@ -9,6 +9,7 @@ def load_raw():
     return df_races, df_weather, df_quali
 
 def clean_races(df_races):
+    df_races = df_races.copy()
     df_races = df_races.dropna(subset=["position", "grid"])
     df_races["grid"] = df_races["grid"].astype(int)
     df_races["position"] = pd.to_numeric(df_races["position"], errors="coerce")
@@ -93,6 +94,8 @@ def save(df):
         print(f"WARNING: {nulls} nulls found in final dataset")
     else:
         print("Null check passed")
+
+    print(df_final.isnull().sum()[df_final.isnull().sum() > 0])
 
     df_final.to_csv("data/processed/features.csv", index=False)
     print(f"Saved: {df_final.shape} → data/processed/features.csv")
