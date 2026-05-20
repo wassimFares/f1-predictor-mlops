@@ -28,11 +28,15 @@ def merge(df_races, df_weather, df_quali):
 
 def clean_features(df):
     # drop missing qualifying times
-    df = df.dropna(subset=["gap_to_pole", "best_quali_time"])
+    df = df.dropna(subset=["gap_to_pole", "best_quali_time"]).copy()
 
     # fix negative gap to pole and clip outliers
     df["gap_to_pole"] = df["gap_to_pole"].abs()
     df["gap_to_pole"] = df["gap_to_pole"].clip(upper=5.0)
+
+    # impute missing weather with global median
+    for col in ["avg_temp", "avg_humidity", "avg_wind", "rainfall"]:
+        df[col] = df[col].fillna(df[col].median())
 
     print(f"After quali cleaning: {len(df)} rows")
     return df

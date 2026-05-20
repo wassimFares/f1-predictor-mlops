@@ -207,20 +207,33 @@ if __name__ == "__main__":
     last_season, last_round = get_latest_round()
     print(f"Last collected: {last_season} R{last_round}")
 
-    next_season, next_round = get_next_race(last_season, last_round)
+    collected = 0
 
-    if next_season is None:
-        print("No new race available yet — skipping")
-        exit(1)
+    while True:
+        next_season, next_round = get_next_race(last_season, last_round)
 
-    print(f"Collecting: {next_season} R{next_round}")
-    new_races, new_weather, new_quali = collect_new_race(next_season, next_round)
+        if next_season is None:
+            print(f"No more races available — collected {collected} new races")
+            break
 
-    if new_races is not None:
+        print(f"Collecting: {next_season} R{next_round}")
+        new_races, new_weather, new_quali = collect_new_race(next_season, next_round)
+
+        if new_races is None or len(new_races) == 0:
+            print(f"Could not collect {next_season} R{next_round} — stopping")
+            break
+
         append_to_csv(new_races, "data/raw/races.csv")
         append_to_csv(new_weather, "data/raw/weather.csv")
-        append_to_csv(new_quali, "data/raw/qualifying.csv")
+        if new_quali is not None and len(new_quali) > 0:
+            append_to_csv(new_quali, "data/raw/qualifying.csv")
+
         print(f"Successfully added {next_season} R{next_round}")
-    else:
-        print("Collection failed")
+        collected += 1
+
+        # update for next iteration
+        last_season, last_round = next_season, next_round
+
+    if collected == 0:
+        print("No new races found — skipping retraining")
         exit(1)
