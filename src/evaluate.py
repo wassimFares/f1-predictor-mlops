@@ -1,6 +1,7 @@
 import mlflow
 import json
 
+mlflow.set_tracking_uri("mlruns")
 client = mlflow.tracking.MlflowClient()
 
 # load new model metrics

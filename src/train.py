@@ -10,6 +10,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 from xgboost import XGBClassifier
 
+mlflow.set_tracking_uri("mlruns")
+
 with open("params.yaml") as f:
     params = yaml.safe_load(f)["train"]
 
