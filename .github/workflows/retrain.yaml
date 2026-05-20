@@ -5,6 +5,9 @@ on:
     - cron: '0 8 * * 4'  # every Thursday 8am UTC
   workflow_dispatch:       # allows manual trigger from GitHub UI
 
+permissions:
+  contents: write  # needed to commit updated data back to the repo
+
 jobs:
   retrain:
     runs-on: ubuntu-latest
