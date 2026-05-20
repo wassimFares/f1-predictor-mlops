@@ -1835,3 +1835,25 @@ season,round,circuit,driver,team,grid,gap_to_pole,best_quali_time,rolling_podium
 2026,1,Australian Grand Prix,HAD,Red Bull,3,0.7849999999999966,79.303,0.0,2.4,0.0,0.0,,,,0,0
 2026,1,Australian Grand Prix,PIA,McLaren,5,0.8619999999999948,79.38,0.4,11.2,14.6,0.0,,,,0,0
 2026,1,Australian Grand Prix,HUL,Audi,11,1.7849999999999966,80.303,0.0,2.0,2.0,0.0,,,,0,0
+2026,2,Chinese Grand Prix,ANT,Mercedes,1,0.0,92.064,0.6,12.2,12.2,0.0,,,,0,1
+2026,2,Chinese Grand Prix,RUS,Mercedes,2,0.2220000000000084,92.286,0.4,14.6,15.6,0.5,,,,0,1
+2026,2,Chinese Grand Prix,HAM,Ferrari,3,0.3510000000000133,92.415,0.0,4.0,8.6,0.0,,,,0,1
+2026,2,Chinese Grand Prix,LEC,Ferrari,4,0.3640000000000043,92.428,0.2,8.6,11.6,0.0,,,,0,0
+2026,2,Chinese Grand Prix,BEA,Haas F1 Team,10,1.2280000000000086,93.292,0.0,3.0,2.4,0.0,,,,0,0
+2026,2,Chinese Grand Prix,GAS,Alpine F1 Team,7,0.8090000000000117,92.873,0.0,0.4,0.5,0.0,,,,0,0
+2026,2,Chinese Grand Prix,LAW,RB F1 Team,14,1.7010000000000076,93.765,0.0,1.6,2.0,0.0,,,,0,0
+2026,2,Chinese Grand Prix,HAD,Red Bull,9,1.0570000000000022,93.121,0.0,2.4,0.0,0.0,,,,0,0
+2026,2,Chinese Grand Prix,SAI,Williams,17,2.253,94.317,0.2,5.0,3.0,0.0,,,,0,0
+2026,2,Chinese Grand Prix,COL,Alpine F1 Team,12,1.2930000000000064,93.357,0.0,0.0,3.0,0.0,,,,0,0
+2026,2,Chinese Grand Prix,HUL,Audi,11,1.2900000000000065,93.354,0.0,2.0,1.0,0.0,,,,0,0
+2026,2,Chinese Grand Prix,LIN,RB F1 Team,15,1.720000000000013,93.784,0.0,4.0,3.3333333333333335,0.0,,,,0,0
+2026,2,Chinese Grand Prix,BOT,Cadillac F1 Team,19,3.372000000000014,95.436,0.0,0.0,0.0,0.0,,,,0,0
+2026,2,Chinese Grand Prix,OCO,Haas F1 Team,13,1.4740000000000038,93.538,0.0,1.6,4.4,0.0,,,,0,0
+2026,2,Chinese Grand Prix,PER,Cadillac F1 Team,21,4.842000000000013,96.906,0.0,0.2,0.0,1.0,,,,0,0
+2026,2,Chinese Grand Prix,VER,Red Bull,8,0.9380000000000024,93.002,1.0,21.0,2.0,0.5,,,,0,0
+2026,2,Chinese Grand Prix,ALO,Aston Martin,18,3.13900000000001,95.203,0.0,2.8,3.0,0.0,,,,0,0
+2026,2,Chinese Grand Prix,STR,Aston Martin,20,3.931000000000012,95.995,0.0,0.2,1.8,0.0,,,,0,0
+2026,2,Chinese Grand Prix,PIA,McLaren,5,0.4860000000000042,92.55,0.4,9.2,11.0,0.5,,,,0,0
+2026,2,Chinese Grand Prix,NOR,McLaren,6,0.5440000000000111,92.608,0.4,12.4,8.6,1.0,,,,0,0
+2026,2,Chinese Grand Prix,BOR,Audi,16,1.9010000000000105,93.965,0.0,0.6,0.6666666666666666,0.0,,,,0,0
+2026,2,Chinese Grand Prix,ALB,Williams,22,2.7080000000000126,94.772,0.0,0.0,0.4,0.0,,,,0,0
