@@ -31,7 +31,7 @@ jobs:
         run: mkdir -p data/cache
 
       - name: Collect latest race
-        run: python src/collect_latest.py
+        run: python src/collect.py
 
       - name: Engineer features
         run: python src/features.py
