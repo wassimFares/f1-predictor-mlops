@@ -1,0 +1,16 @@
+creation_timestamp: 1779318100854
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1779318100854
+model_id: m-d224bbabf57f417bb15ec913650c1491
+name: f1-podium-champion
+run_id: 697bf11ae819499fbf279fc35162a88d
+run_link: null
+source: models:/m-d224bbabf57f417bb15ec913650c1491
+status: READY
+status_message: null
+storage_location: file:C:/Users/knigh/Desktop/f1-predictor-mlops/mlruns/758647257210090776/models/m-d224bbabf57f417bb15ec913650c1491/artifacts
+user_id: null
+version: 2
+workspace: default
