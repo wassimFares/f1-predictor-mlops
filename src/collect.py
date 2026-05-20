@@ -130,7 +130,7 @@ def collect_all(seasons):
     return pd.DataFrame(races), pd.DataFrame(weather)
 
 
-seasons = [2022, 2023, 2024, 2025, 2026]
+seasons = [2022, 2023, 2024, 2025]
 
 print("Collecting from FastF1...")
 df_races, df_weather, df_qualifying = collect_all(seasons)

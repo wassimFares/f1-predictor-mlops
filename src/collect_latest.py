@@ -5,11 +5,29 @@ import os
 fastf1.Cache.enable_cache("data/cache")
 
 def get_latest_round():
-    # find the most recent round we already have
     df = pd.read_csv("data/raw/races.csv")
-    last_season = df["season"].max()
-    last_round = df[df["season"] == last_season]["round"].max()
-    return int(last_season), int(last_round)
+    last_season = int(df["season"].max())
+    last_round = int(df[df["season"] == last_season]["round"].max())
+    return last_season, last_round
+
+def get_next_race(last_season, last_round):
+    # try next round in same season
+    try:
+        session = fastf1.get_session(last_season, last_round + 1, "R")
+        session.load(telemetry=False, weather=False,
+                     messages=False, laps=False)
+        return last_season, last_round + 1
+    except:
+        pass
+
+    # try round 1 of next season
+    try:
+        session = fastf1.get_session(last_season + 1, 1, "R")
+        session.load(telemetry=False, weather=False,
+                     messages=False, laps=False)
+        return last_season + 1, 1
+    except:
+        return None, None
 
 def collect_new_race(season, round_num):
     try:
@@ -96,17 +114,22 @@ def append_to_csv(new_df, path):
 
 if __name__ == "__main__":
     last_season, last_round = get_latest_round()
-    next_round = last_round + 1
     print(f"Last collected: {last_season} R{last_round}")
-    print(f"Attempting to collect: {last_season} R{next_round}")
 
-    new_races, new_weather, new_quali = collect_new_race(last_season, next_round)
+    next_season, next_round = get_next_race(last_season, last_round)
+
+    if next_season is None:
+        print("No new race available yet — skipping")
+        exit(1)
+
+    print(f"Collecting: {next_season} R{next_round}")
+    new_races, new_weather, new_quali = collect_new_race(next_season, next_round)
 
     if new_races is not None:
         append_to_csv(new_races, "data/raw/races.csv")
         append_to_csv(new_weather, "data/raw/weather.csv")
         append_to_csv(new_quali, "data/raw/qualifying.csv")
-        print(f"\nSuccessfully added R{next_round}")
+        print(f"Successfully added {next_season} R{next_round}")
     else:
-        print(f"\nNo new race available yet — pipeline will skip retraining")
-        exit(1)  # non-zero exit tells GitHub Actions to stop
+        print("Collection failed")
+        exit(1)
