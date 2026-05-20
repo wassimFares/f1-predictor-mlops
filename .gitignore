@@ -1,0 +1,14 @@
+# python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# mlflow
+mlruns/
+
+# fastf1 cache (large, no need to push)
+data/cache/
+
+# jupyter checkpoints
+.ipynb_checkpoints/
