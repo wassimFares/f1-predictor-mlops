@@ -1903,3 +1903,25 @@ season,round,circuit,driver,team,grid,position,points,status,podium
 2026,3,Japanese Grand Prix,ALB,Williams,17.0,20.0,0.0,Lapped,0
 2026,3,Japanese Grand Prix,STR,Aston Martin,22.0,21.0,0.0,Retired,0
 2026,3,Japanese Grand Prix,BEA,Haas F1 Team,18.0,22.0,0.0,Retired,0
+2026,4,Miami Grand Prix,ANT,Mercedes,1.0,1.0,25.0,Finished,1
+2026,4,Miami Grand Prix,NOR,McLaren,4.0,2.0,18.0,Finished,1
+2026,4,Miami Grand Prix,PIA,McLaren,7.0,3.0,15.0,Finished,1
+2026,4,Miami Grand Prix,RUS,Mercedes,5.0,4.0,12.0,Finished,0
+2026,4,Miami Grand Prix,VER,Red Bull Racing,2.0,5.0,10.0,Finished,0
+2026,4,Miami Grand Prix,HAM,Ferrari,6.0,6.0,8.0,Finished,0
+2026,4,Miami Grand Prix,COL,Alpine,8.0,7.0,6.0,Finished,0
+2026,4,Miami Grand Prix,LEC,Ferrari,3.0,8.0,4.0,Finished,0
+2026,4,Miami Grand Prix,SAI,Williams,13.0,9.0,2.0,Finished,0
+2026,4,Miami Grand Prix,ALB,Williams,15.0,10.0,1.0,Finished,0
+2026,4,Miami Grand Prix,BEA,Haas F1 Team,12.0,11.0,0.0,Lapped,0
+2026,4,Miami Grand Prix,BOR,Audi,21.0,12.0,0.0,Lapped,0
+2026,4,Miami Grand Prix,OCO,Haas F1 Team,14.0,13.0,0.0,Lapped,0
+2026,4,Miami Grand Prix,LIN,Racing Bulls,16.0,14.0,0.0,Lapped,0
+2026,4,Miami Grand Prix,ALO,Aston Martin,17.0,15.0,0.0,Lapped,0
+2026,4,Miami Grand Prix,PER,Cadillac,20.0,16.0,0.0,Lapped,0
+2026,4,Miami Grand Prix,STR,Aston Martin,18.0,17.0,0.0,Lapped,0
+2026,4,Miami Grand Prix,BOT,Cadillac,19.0,18.0,0.0,Lapped,0
+2026,4,Miami Grand Prix,HUL,Audi,10.0,19.0,0.0,Retired,0
+2026,4,Miami Grand Prix,LAW,Racing Bulls,11.0,20.0,0.0,Retired,0
+2026,4,Miami Grand Prix,GAS,Alpine,9.0,21.0,0.0,Retired,0
+2026,4,Miami Grand Prix,HAD,Red Bull Racing,22.0,22.0,0.0,Retired,0
