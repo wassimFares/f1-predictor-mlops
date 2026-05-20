@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/knigh/Desktop/f1-predictor-mlops/mlruns/758647257210090776/fc3ef2209e844a5f9a70266e1850ffad/artifacts
+end_time: 1779317908006
+entry_point_name: ''
+experiment_id: '758647257210090776'
+lifecycle_stage: active
+run_id: fc3ef2209e844a5f9a70266e1850ffad
+run_name: illustrious-seal-0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779317893549
+status: 3
+tags: []
+user_id: knigh
