@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/knigh/Desktop/f1-predictor-mlops/mlruns/758647257210090776/0bb37eb2516a41a8a64f556e9625e039/artifacts
+end_time: 1779378276207
+entry_point_name: ''
+experiment_id: '758647257210090776'
+lifecycle_stage: active
+run_id: 0bb37eb2516a41a8a64f556e9625e039
+run_name: delightful-ram-856
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779378263644
+status: 3
+tags: []
+user_id: knigh
