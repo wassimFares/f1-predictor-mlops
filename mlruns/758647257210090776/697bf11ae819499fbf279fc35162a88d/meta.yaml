@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/knigh/Desktop/f1-predictor-mlops/mlruns/758647257210090776/697bf11ae819499fbf279fc35162a88d/artifacts
+end_time: 1779318100864
+entry_point_name: ''
+experiment_id: '758647257210090776'
+lifecycle_stage: active
+run_id: 697bf11ae819499fbf279fc35162a88d
+run_name: wistful-jay-843
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779318096679
+status: 3
+tags: []
+user_id: runner
