@@ -23,15 +23,24 @@ try:
 
     if new_auc > champion_auc + 0.005:
         print("\nChallenger wins — promoting to champion")
+        
+        # update champion metrics file
         with open("champion_metrics.json", "w") as f:
             json.dump({"roc_auc": new_auc, "f1": new_f1}, f)
-        print(f"New champion: ROC-AUC {new_auc:.4f}")
-    else:
-        print("\nChampion holds — no promotion")
-        print(f"Needed: >0.005 improvement | Actual: {new_auc - champion_auc:+.4f}")
+        
+        # also set alias in MLflow registry
+        versions = client.search_model_versions("name='f1-podium-champion'")
+        latest = max(versions, key=lambda v: int(v.version)).version
+        client.set_registered_model_alias("f1-podium-champion", "champion", latest)
+        print(f"Version {latest} promoted to champion")
 
 except FileNotFoundError:
     print("\nNo champion yet — setting current model as champion")
     with open("champion_metrics.json", "w") as f:
         json.dump({"roc_auc": new_auc, "f1": new_f1}, f)
-    print(f"Champion set: ROC-AUC {new_auc:.4f}")
+    
+    # set alias for first time
+    versions = client.search_model_versions("name='f1-podium-champion'")
+    latest = max(versions, key=lambda v: int(v.version)).version
+    client.set_registered_model_alias("f1-podium-champion", "champion", latest)
+    print(f"Version {latest} set as first champion")
