@@ -1,8 +1,0 @@
-artifact_location: file:C:/Users/knigh/Desktop/f1-predictor-mlops/mlruns/758647257210090776
-creation_time: 1779317892532
-experiment_id: '758647257210090776'
-last_update_time: 1779317892532
-lifecycle_stage: active
-name: f1-podium-predictor
-trace_location: null
-workspace: default

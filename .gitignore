@@ -4,6 +4,7 @@ __pycache__/
 *.pyo
 .env
 
+mlruns/
 # mlflow
 mlflow.db
 # fastf1 cache (large, no need to push)

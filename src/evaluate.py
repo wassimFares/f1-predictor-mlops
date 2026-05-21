@@ -3,7 +3,7 @@ import mlflow.sklearn
 import json
 import os
 
-mlflow.set_tracking_uri("mlruns")
+mlflow.set_tracking_uri("sqlite:///mlflow.db")
 client = mlflow.tracking.MlflowClient()
 
 with open("metrics.json") as f:
