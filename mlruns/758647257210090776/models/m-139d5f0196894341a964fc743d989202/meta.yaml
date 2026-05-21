@@ -1,0 +1,10 @@
+artifact_location: file:C:/Users/knigh/Desktop/f1-predictor-mlops/mlruns/758647257210090776/models/m-139d5f0196894341a964fc743d989202/artifacts
+creation_timestamp: 1779378917743
+experiment_id: '758647257210090776'
+last_updated_timestamp: 1779378940693
+model_id: m-139d5f0196894341a964fc743d989202
+model_type: null
+name: model
+source_run_id: bfc51ab74a724697b81d1f63d959d04a
+status: 2
+status_message: null

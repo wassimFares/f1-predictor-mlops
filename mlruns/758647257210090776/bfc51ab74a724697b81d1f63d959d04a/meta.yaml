@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/knigh/Desktop/f1-predictor-mlops/mlruns/758647257210090776/bfc51ab74a724697b81d1f63d959d04a/artifacts
+end_time: 1779378940782
+entry_point_name: ''
+experiment_id: '758647257210090776'
+lifecycle_stage: active
+run_id: bfc51ab74a724697b81d1f63d959d04a
+run_name: bouncy-chimp-832
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779378916716
+status: 4
+tags: []
+user_id: knigh
