@@ -49,6 +49,6 @@ jobs:
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
-          git add data/raw/ data/processed/ metrics.json mlflow.db
+          git add data/raw/ data/processed/ metrics.json mlflow.db champion_metrics.json
           git diff --staged --quiet || git commit -m "auto: retrain after race weekend [skip ci]"
           git push
