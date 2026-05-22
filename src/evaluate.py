@@ -2,6 +2,7 @@ import mlflow
 import mlflow.sklearn
 import json
 import os
+import shutil
 
 mlflow.set_tracking_uri("sqlite:///mlflow.db")
 client = mlflow.tracking.MlflowClient()
@@ -34,13 +35,22 @@ try:
         client.set_registered_model_alias("f1-podium-champion", "champion", latest)
         print(f"Version {latest} promoted to champion")
 
+
+        shutil.copy("model/challenger.pkl", "model/champion.pkl")
+        print("Champion model file updated")
+
+        
+
 except FileNotFoundError:
     print("\nNo champion yet — setting current model as champion")
     with open("champion_metrics.json", "w") as f:
         json.dump({"roc_auc": new_auc, "f1": new_f1}, f)
+    
     
     # set alias for first time
     versions = client.search_model_versions("name='f1-podium-champion'")
     latest = max(versions, key=lambda v: int(v.version)).version
     client.set_registered_model_alias("f1-podium-champion", "champion", latest)
     print(f"Version {latest} set as first champion")
+    shutil.copy("model/challenger.pkl", "model/champion.pkl")
+    print("First champion saved")

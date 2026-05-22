@@ -9,6 +9,8 @@ from sklearn.metrics import f1_score, roc_auc_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 from xgboost import XGBClassifier
+import os
+import pickle
 
 mlflow.set_tracking_uri("sqlite:///mlflow.db")
 
@@ -95,3 +97,10 @@ with mlflow.start_run():
             "f1": round(mean_f1, 4),
             "roc_auc": round(mean_auc, 4)
         }, f)
+
+    
+
+    os.makedirs("model", exist_ok=True)
+    with open("model/challenger.pkl", "wb") as f:
+        pickle.dump(final_model, f)
+    print("Challenger saved to model/challenger.pkl")
