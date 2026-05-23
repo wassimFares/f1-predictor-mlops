@@ -188,7 +188,7 @@ docker run -p 8000:8000 f1-predictor
 
 ## Automated Retraining
 
-GitHub Actions triggers every Monday at 6am UTC after race weekend:
+GitHub Actions triggers every Thursday at 8am UTC before race weekend:
 
 1. `collect_latest.py` fetches the most recent race(s) — loops until no new data
 2. `features.py` rebuilds the feature set with rolling windows
