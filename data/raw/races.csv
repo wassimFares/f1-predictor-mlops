@@ -1969,3 +1969,25 @@ season,round,circuit,driver,team,grid,position,points,status,podium
 2026,6,Monaco Grand Prix,BEA,Haas F1 Team,19.0,20.0,0.0,Retired,0
 2026,6,Monaco Grand Prix,BOT,Cadillac,20.0,21.0,0.0,Retired,0
 2026,6,Monaco Grand Prix,VER,Red Bull Racing,2.0,22.0,0.0,Retired,0
+2026,7,Barcelona Grand Prix,HAM,Ferrari,2.0,1.0,25.0,Finished,1
+2026,7,Barcelona Grand Prix,RUS,Mercedes,1.0,2.0,18.0,Finished,1
+2026,7,Barcelona Grand Prix,NOR,McLaren,4.0,3.0,15.0,Finished,1
+2026,7,Barcelona Grand Prix,VER,Red Bull,5.0,4.0,12.0,Finished,0
+2026,7,Barcelona Grand Prix,PIA,McLaren,7.0,5.0,10.0,Finished,0
+2026,7,Barcelona Grand Prix,HAD,Red Bull,6.0,6.0,8.0,Lapped,0
+2026,7,Barcelona Grand Prix,GAS,Alpine F1 Team,14.0,7.0,6.0,Lapped,0
+2026,7,Barcelona Grand Prix,LAW,RB F1 Team,8.0,8.0,4.0,Lapped,0
+2026,7,Barcelona Grand Prix,LIN,RB F1 Team,11.0,9.0,2.0,Lapped,0
+2026,7,Barcelona Grand Prix,COL,Alpine F1 Team,13.0,10.0,1.0,Lapped,0
+2026,7,Barcelona Grand Prix,BOR,Audi,12.0,11.0,0.0,Lapped,0
+2026,7,Barcelona Grand Prix,SAI,Williams,16.0,12.0,0.0,Lapped,0
+2026,7,Barcelona Grand Prix,OCO,Haas F1 Team,17.0,13.0,0.0,Lapped,0
+2026,7,Barcelona Grand Prix,PER,Cadillac F1 Team,19.0,14.0,0.0,Lapped,0
+2026,7,Barcelona Grand Prix,LEC,Ferrari,10.0,15.0,0.0,Retired,0
+2026,7,Barcelona Grand Prix,ANT,Mercedes,3.0,16.0,0.0,Retired,0
+2026,7,Barcelona Grand Prix,BEA,Haas F1 Team,15.0,17.0,0.0,Retired,0
+2026,7,Barcelona Grand Prix,ALB,Williams,18.0,18.0,0.0,Lapped,0
+2026,7,Barcelona Grand Prix,ALO,Aston Martin,22.0,19.0,0.0,Retired,0
+2026,7,Barcelona Grand Prix,HUL,Audi,9.0,20.0,0.0,Retired,0
+2026,7,Barcelona Grand Prix,BOT,Cadillac F1 Team,20.0,21.0,0.0,Retired,0
+2026,7,Barcelona Grand Prix,STR,Aston Martin,21.0,22.0,0.0,Retired,0
