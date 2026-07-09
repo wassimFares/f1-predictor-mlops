@@ -2013,3 +2013,25 @@ season,round,circuit,driver,team,grid,position,points,status,podium
 2026,8,Austrian Grand Prix,SAI,Williams,17.0,20.0,0.0,Retired,0
 2026,8,Austrian Grand Prix,PER,Cadillac,19.0,21.0,0.0,Retired,0
 2026,8,Austrian Grand Prix,BOT,Cadillac,20.0,22.0,0.0,Retired,0
+2026,9,British Grand Prix,LEC,Ferrari,2.0,1.0,25.0,Finished,1
+2026,9,British Grand Prix,RUS,Mercedes,4.0,2.0,18.0,Finished,1
+2026,9,British Grand Prix,HAM,Ferrari,3.0,3.0,15.0,Finished,1
+2026,9,British Grand Prix,NOR,McLaren,6.0,4.0,12.0,Finished,0
+2026,9,British Grand Prix,HAD,Red Bull Racing,5.0,5.0,10.0,Finished,0
+2026,9,British Grand Prix,LAW,Racing Bulls,10.0,6.0,8.0,Finished,0
+2026,9,British Grand Prix,LIN,Racing Bulls,9.0,7.0,6.0,Finished,0
+2026,9,British Grand Prix,BOR,Audi,11.0,8.0,4.0,Finished,0
+2026,9,British Grand Prix,COL,Alpine,19.0,9.0,2.0,Finished,0
+2026,9,British Grand Prix,GAS,Alpine,15.0,10.0,1.0,Finished,0
+2026,9,British Grand Prix,PIA,McLaren,8.0,11.0,0.0,Finished,0
+2026,9,British Grand Prix,BEA,Haas F1 Team,13.0,12.0,0.0,Finished,0
+2026,9,British Grand Prix,OCO,Haas F1 Team,17.0,13.0,0.0,Finished,0
+2026,9,British Grand Prix,PER,Cadillac,20.0,14.0,0.0,Finished,0
+2026,9,British Grand Prix,ANT,Mercedes,1.0,15.0,0.0,Finished,0
+2026,9,British Grand Prix,BOT,Cadillac,18.0,16.0,0.0,Finished,0
+2026,9,British Grand Prix,SAI,Williams,14.0,17.0,0.0,Lapped,0
+2026,9,British Grand Prix,ALO,Aston Martin,21.0,18.0,0.0,Lapped,0
+2026,9,British Grand Prix,STR,Aston Martin,22.0,19.0,0.0,Lapped,0
+2026,9,British Grand Prix,VER,Red Bull Racing,7.0,20.0,0.0,Retired,0
+2026,9,British Grand Prix,ALB,Williams,16.0,21.0,0.0,Retired,0
+2026,9,British Grand Prix,HUL,Audi,12.0,22.0,0.0,Retired,0
