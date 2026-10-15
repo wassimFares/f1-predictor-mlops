@@ -2189,3 +2189,25 @@ season,round,circuit,driver,team,grid,position,points,status,podium
 2026,16,Bahrain Grand Prix,RUS,Mercedes,7.0,20.0,0.0,Retired,0
 2026,16,Bahrain Grand Prix,ALB,Williams,18.0,21.0,0.0,Retired,0
 2026,16,Bahrain Grand Prix,BOT,Cadillac F1 Team,19.0,22.0,0.0,Retired,0
+2026,17,Singapore Grand Prix,VER,Red Bull,1.0,1.0,25.0,Finished,1
+2026,17,Singapore Grand Prix,LEC,Ferrari,2.0,2.0,18.0,Finished,1
+2026,17,Singapore Grand Prix,ANT,Mercedes,4.0,3.0,15.0,Finished,1
+2026,17,Singapore Grand Prix,NOR,McLaren,5.0,4.0,12.0,Finished,0
+2026,17,Singapore Grand Prix,PIA,McLaren,6.0,5.0,10.0,Finished,0
+2026,17,Singapore Grand Prix,HAM,Ferrari,3.0,6.0,8.0,Finished,0
+2026,17,Singapore Grand Prix,LAW,RB F1 Team,8.0,7.0,6.0,Finished,0
+2026,17,Singapore Grand Prix,HUL,Audi,10.0,8.0,4.0,Finished,0
+2026,17,Singapore Grand Prix,RUS,Mercedes,19.0,9.0,2.0,Finished,0
+2026,17,Singapore Grand Prix,HAD,Red Bull,22.0,10.0,1.0,Finished,0
+2026,17,Singapore Grand Prix,GAS,Alpine F1 Team,7.0,11.0,0.0,Lapped,0
+2026,17,Singapore Grand Prix,BEA,Haas F1 Team,11.0,12.0,0.0,Lapped,0
+2026,17,Singapore Grand Prix,OCO,Haas F1 Team,12.0,13.0,0.0,Lapped,0
+2026,17,Singapore Grand Prix,SAI,Williams,13.0,14.0,0.0,Lapped,0
+2026,17,Singapore Grand Prix,LIN,RB F1 Team,9.0,15.0,0.0,Lapped,0
+2026,17,Singapore Grand Prix,ALO,Aston Martin,20.0,16.0,0.0,Lapped,0
+2026,17,Singapore Grand Prix,PER,Cadillac F1 Team,17.0,17.0,0.0,Lapped,0
+2026,17,Singapore Grand Prix,ALB,Williams,16.0,18.0,0.0,Retired,0
+2026,17,Singapore Grand Prix,BOT,Cadillac F1 Team,18.0,19.0,0.0,Lapped,0
+2026,17,Singapore Grand Prix,STR,Aston Martin,21.0,20.0,0.0,Retired,0
+2026,17,Singapore Grand Prix,COL,Alpine F1 Team,15.0,21.0,0.0,Retired,0
+2026,17,Singapore Grand Prix,BOR,Audi,14.0,22.0,0.0,Retired,0
