@@ -2255,3 +2255,25 @@ season,round,circuit,driver,team,grid,position,points,status,podium
 2026,19,Mexico City Grand Prix,BOT,Cadillac F1 Team,21.0,20.0,0.0,Retired,0
 2026,19,Mexico City Grand Prix,STR,Aston Martin,19.0,21.0,0.0,Retired,0
 2026,19,Mexico City Grand Prix,ALO,Aston Martin,17.0,22.0,0.0,Retired,0
+2026,20,São Paulo Grand Prix,NOR,McLaren,1.0,1.0,25.0,Finished,1
+2026,20,São Paulo Grand Prix,VER,Red Bull,21.0,2.0,18.0,Finished,1
+2026,20,São Paulo Grand Prix,HAD,Red Bull,5.0,3.0,15.0,Finished,1
+2026,20,São Paulo Grand Prix,RUS,Mercedes,7.0,4.0,12.0,Finished,0
+2026,20,São Paulo Grand Prix,ANT,Mercedes,2.0,5.0,10.0,Finished,0
+2026,20,São Paulo Grand Prix,PIA,McLaren,10.0,6.0,8.0,Finished,0
+2026,20,São Paulo Grand Prix,LAW,RB F1 Team,3.0,7.0,6.0,Finished,0
+2026,20,São Paulo Grand Prix,LEC,Ferrari,14.0,8.0,4.0,Finished,0
+2026,20,São Paulo Grand Prix,HAM,Ferrari,20.0,9.0,2.0,Lapped,0
+2026,20,São Paulo Grand Prix,HUL,Audi,4.0,10.0,1.0,Lapped,0
+2026,20,São Paulo Grand Prix,LIN,RB F1 Team,18.0,11.0,0.0,Lapped,0
+2026,20,São Paulo Grand Prix,ALO,Aston Martin,8.0,12.0,0.0,Lapped,0
+2026,20,São Paulo Grand Prix,COL,Alpine F1 Team,13.0,13.0,0.0,Lapped,0
+2026,20,São Paulo Grand Prix,GAS,Alpine F1 Team,15.0,14.0,0.0,Lapped,0
+2026,20,São Paulo Grand Prix,ALB,Williams,9.0,15.0,0.0,Lapped,0
+2026,20,São Paulo Grand Prix,BOR,Audi,19.0,16.0,0.0,Lapped,0
+2026,20,São Paulo Grand Prix,BEA,Haas F1 Team,6.0,17.0,0.0,Lapped,0
+2026,20,São Paulo Grand Prix,PER,Cadillac F1 Team,22.0,18.0,0.0,Lapped,0
+2026,20,São Paulo Grand Prix,SAI,Williams,12.0,19.0,0.0,Lapped,0
+2026,20,São Paulo Grand Prix,CAM,Haas F1 Team,11.0,20.0,0.0,Lapped,0
+2026,20,São Paulo Grand Prix,STR,Aston Martin,16.0,21.0,0.0,Retired,0
+2026,20,São Paulo Grand Prix,BOT,Cadillac F1 Team,17.0,22.0,0.0,Did not start,0
